@@ -1,0 +1,15 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+.home{
+    text-decoration: none;
+}
+.message{
+    text-decoration: none;
+}

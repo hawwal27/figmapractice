@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .menu-icon {
+    width: 24px;
+    height: 24px;
+    background-color: #666;
+    border-radius: 4px;
+  }
+  
+  .app-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+  
+  .shape-icon {
+    background-color: #aaa;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  
+  .search-icon {
+    background-color: #666;
+    border-radius: 50%;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  .avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .username {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .post {
+    background-color: black;
+    margin: 20px 10px;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .post-image {
+    width: 100%;
+    border-radius: 12px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .post-text {
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+  }
+  
+  .post-text p {
+    margin-bottom: 10px;
+  }
+  
+@media (min-width:416) {
+    header{
+        margin-top: 500px;
+    }
+}
