@@ -1,15 +1,29 @@
 
 body {
+    align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #000;
     font-family: Arial, sans-serif;
     color: #fff;
+    margin-top: 400px;
+
 }
 .home{
-    text-decoration: none;
+    color: #fff;
+    text-decoration-line: none;
+    text-decoration-style: none;
 }
 .message{
-    text-decoration: none;
+    color: #fff;
+    text-decoration-line: none;
+}
+@media (min-width: 768px) {
+    body{
+        font-size: 20px;
+        margin-top: 300px;
+        margin-left: 50px;
+    }
+
 }
